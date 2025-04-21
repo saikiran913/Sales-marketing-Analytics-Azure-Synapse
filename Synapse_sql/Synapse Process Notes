@@ -1,0 +1,21 @@
+-----------After Pipeline activity the data will load to synapse by creating raw data table
+
+CREATE TABLE staging.sales_raw (
+  InvoiceNo NVARCHAR(50),
+  StockCode NVARCHAR(50),
+  Description NVARCHAR(255),
+  Quantity INT,
+  InvoiceDate DATETIME,
+  UnitPrice DECIMAL(10,2),
+  CustomerID NVARCHAR(50),
+  Country NVARCHAR(100)
+)
+
+------Data Transformation and Modeling
+After we will create   Dimension Tables and Fact table in Synapse
+
+
+I have Provided the Data Transformations and Modelling code in the folder
+
+--------Connect Power BI to Azure Synapse,
+Use the Azure Synapse Analytics connector
