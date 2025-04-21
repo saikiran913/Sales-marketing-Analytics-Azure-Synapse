@@ -1,0 +1,27 @@
+   --- Create Azure Resources
+
+- Azure Data Factory (V2)
+- Azure Storage Account (Blob Storage for staging .csv files)
+
+
+------Data Flow from Raw to Clean
+
+- Upload Files to Azure Blob Storage
+- - Upload the CSV files to a container salesmarketing/raw/
+
+---Create Linked Services in ADF
+
+- Azure Blob storage(Source)
+- Azure Synapse Analytics(Sink)
+
+
+--------ETL Pipeline Using Azure Data Factory----------
+
+- Raw to Staging ETL
+Use Copy Data activity in ADF to move files from Blob Storage to Analyticse RAW schema
+
+
+
+
+
+
